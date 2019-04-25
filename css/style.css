@@ -1,0 +1,326 @@
+
+/* fixe tout le contenu sous le header */
+html{
+    scroll-behavior: smooth;
+}
+
+
+.content {
+    position: relative;
+    top: 100px;
+}
+/* fixe tout le contenu sous le header */
+
+
+
+/* Le background entié du site */
+.bg-body {
+    background-image: url(../images/background1.jpg);
+    background-attachment:fixed;   
+}
+/* Le background entié du site */
+
+
+/* Le Background du Header */
+.bg-trans-w {
+    background-color: rgba(77, 102, 214);
+    
+}
+/* Le Background du Header */
+
+
+/* Couleur orange du Header */
+.color-header-text {
+    color: rgb(240, 162, 116);
+}
+/* Couleur orange du Header */
+
+
+/* Couleur bleu des textes de la première bar de nav */
+.color-NavBar-1 {
+    color: rgb(77, 102, 214);
+}
+/* Couleur bleu des textes de la première bar de nav */
+
+
+
+
+
+
+
+
+/* Couleur bleu du background de la première bar de nav */
+.bg-trans-b {
+    background-color:  rgba(77, 102, 214, 0.2);
+}
+/* Couleur bleu du background de la première bar de nav */
+
+
+/* Essai pour alligner les différents menus dans le background mais toujours pas de solution */
+.test1 {
+    text-align: center !important;
+}
+/* Essai pour alligner les différents menus dans le background mais toujours pas de solution */
+
+
+/* Couleur orange en hover sur les différents menu de la première bar de nav, il y a un !important pour passer au dessus du bootstrap */
+.color-NavBar-1:hover {
+    color: rgb(240, 162, 116)!important;
+}
+/* Couleur orange en hover sur les différents menu de la première bar de nav, il y a un !important pour passer au dessus du bootstrap */
+
+
+/* Couleur bleu du background de la section crée un compte */
+#creecompte {
+   background-color:  rgba(77, 102, 214, 0.2); 
+}
+/* Couleur bleu du background de la section crée un compte */
+
+
+/* Couleur bleu du text pour le titre mais aussi pour la liste parce que fuck la police */
+.titrecompte {
+    color: rgb(77, 102, 214);
+}
+/* Couleur bleu du text pour le titre mais aussi pour la liste parce que fuck la police */
+
+
+/* Couleur bleu du titre de la section comment télécharger le jeu */
+.titredl {
+    color: rgb(77, 102, 214); 
+}
+/* Couleur bleu du titre de la section comment télécharger le jeu */
+
+
+/* Couleur bleu du background et du texte de la section comment télécharger */
+#commentdljeu {
+    background-color:  rgba(77, 102, 214, 0.2);
+    color: rgb(77, 102, 214);
+}
+/* Couleur bleu du background et du texte de la section comment télécharger */
+
+
+/* Couleur orange sur les liens de la section comment télécharger en hover */
+.hoverlink:hover 
+{
+    color: rgb(240, 162, 116)!important;
+}
+/* Couleur orange sur les liens de la section comment télécharger en hover */
+
+
+/* Couleur bleu sur le texte et backgroud de la section comment installer le jeu */
+#commentinstjeu {
+    background-color:  rgba(77, 102, 214, 0.2);
+    color: rgb(77, 102, 214);
+}
+/* Couleur bleu sur le texte et backgroud de la section comment installer le jeu */  
+
+/* Bouton reamlist */
+.btn-reamlist {
+    background-color: rgb(77, 102, 214)!important;
+    color: white !important;
+    border-color: white !important;
+}
+
+#btn-reamlist:hover {
+    background-color:rgb(240, 162, 116) !important;
+    color: white !important;
+}
+
+
+
+
+/* Couleur orange pour mettre en valeur la reamlist dans la section comment installer le jeu */
+.couleurream {
+    color: rgb(240, 162, 116)!important;
+}
+/* Couleur orange pour mettre en valeur la reamlist dans la section comment installer le jeu */
+
+
+/* Bouton reamlist */
+#btn-reamlist {
+    background-color: rgb(77, 102, 214);
+    color: white;
+    border-color: white; 
+}
+/* Bouton reamlist */
+
+/* bouton reamlist en hover */
+#btn-reamlist:hover {
+    background-color:rgb(240, 162, 116);
+    color: white;
+}
+/* bouton reamlist en hover */    
+
+
+/* bouton reamlist sur le jeu */
+.btn-reamlist:hover {
+    background-color:rgb(240, 162, 116);
+    color: white;
+}
+/* bouton reamlist sur le jeu */
+
+/* Couleur bleu sur le texte et backgroud de la section nos partenaires */
+#nospartenaires {
+    background-color:  rgba(77, 102, 214, 0.2);
+    color: rgb(77, 102, 214);
+}
+/* Couleur bleu sur le texte et backgroud de la section nos partenaires */
+
+
+/* Couleur bleu sur le texte et backgroud de la section notre chaine youtube */
+#chaineyt {
+    background-color:  rgba(77, 102, 214, 0.2);
+    color: rgb(77, 102, 214);
+}
+/* Couleur bleu sur le texte et backgroud de la section notre chaine youtube */
+
+
+
+
+#btn-acces-jeu {
+    background-color: rgb(77, 102, 214);
+    color: white;
+    border-color: white;
+}
+
+
+#btn-acces-jeu:hover {
+    background-color:rgb(240, 162, 116);
+    color: white;
+}
+
+
+
+/* couleur pour le footer */
+#footerid {
+    color: white;
+}
+/* couleur pour le footer */
+
+
+/* couleur du bouton */
+.btn-default {
+  background-color: rgba(77, 102, 214);
+  color: white;
+  border-color: white;
+}
+/* couleur du bouton */
+
+
+/* couleur du bouton en hover */
+.btn-default:hover {
+background-color:rgb(240, 162, 116);
+color: white;
+}
+/* couleur du bouton en hover */
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------feuille contact----------*/
+#bt-contact {
+    background-color: rgb(77, 102, 214);
+    color: white;
+    border-color: white;
+}
+
+#bt-contact:hover {
+    background-color: rgb(240, 162, 116);
+}
+
+
+.couleurtextecontact {
+    color: rgb(77, 102, 214);
+}
+
+
+
+
+
+/* ---------Jeu---------- */
+.jeu {
+    background-image: url(../images/background1.jpg)
+}
+
+.text-jeu {
+    color: rgb(77, 102, 214);
+}
+
+
+
+#bt-jeu {
+    background-color: rgb(77, 102, 214);
+    color: white;
+    border-color: white;
+}
+
+#bt-jeu:hover {
+    background-color: rgb(240, 162, 116)!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Bouton de merde qui me casse les couuuuuuiiiiiillllllless sa mère */
+
+
+
+#bt-demerde {
+    background-color: rgb(77, 102, 214);
+    color: white;
+    border-color: white;
+}
+
+
+#bt-demerde:hover {
+    background-color: rgb(240, 162, 116)!important;   
+}
+
+
+/* désolé */
+
+
+
+
+
+/* texte écrit par le bouton du jeu */
+
+.text-jeu {
+    color: rgb(77, 102, 214);
+}
+
+
+
